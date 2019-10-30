@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>termin</title>
+    <link rel="stylesheet" href="css/card1.css" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+      <div class="box1">
+          <div class="nav_menu">
+                <div class="img1"><a href="../index.html"><img src="../img/logo.png"></a></div> 
+                <div class="author"><a href = "../index.html"> ВЕРНУТЬСЯ НА ГЛАВНУЮ</a></div>
+                <div class="help"><a href = "../practica/card_2.html"> ПЕРЕЙТИ К ПРАКТИКЕ</a></div>
+          </div>
+      </div>
+      <div class="box2">
+          <p>тригонометрическая форма <br> комплексного числа</p>
+      </div>
+      <div class="box3">
+            <p>
+                Наряду с алгебраической формой комплексного числа широко применяется 
+                тригонометрическая форма.
+            </p>
+            <p>
+                <b>Теорема 1.4.</b> Для любых действительных чисел <i>x</i> и <i>y</i>, 
+                удовлетворяющих условию <i>x<sup> 2</sup> + y<sup> 2</sup> = 1 </i>	(1),
+                существует единственное действительное число <i>&phi;</i> такое, что
+                <i>x = cos&phi;, y = sin&phi;, 0 &le; &phi; &le; 2&pi;</i> (2).
+            </p>
+            <p>
+                <i>Доказательство.</i> Предположим, что действительные числа <i>x</i> и <i>y</i>
+                удовлетворяют условию (1), тогда |<i> x </i>| &le; 1 (3).
+            </p>
+            <p>
+                Любое действительное число, удовлетворяющее условию (3), принадлежит области 
+                значений функции <i>cos</i> в замкнутом интервале <i>[0, &pi;]</i>. Следовательно, 
+                существует такое действительное число <i>&psi;</i>, что <i>x = cos&psi;, 0 &le; &psi; &le; &pi;</i>  (4)
+            </p>
+            <p>    
+                В силу (1) и (4) <i>y <sup>2</sup> = sin <sup>2</sup>&psi;</i> и <i>y = &plusmn; sin&psi;</i>. 
+                Если <i>y = sin&psi;</i>, то положим <i>&phi; = &psi;</i>. Если же <i>y = - sin&psi;</i>, 
+                то положим <i>&phi; = 2&pi; - &psi;</i>. В любом случае действительное число <i>&phi;</i> 
+                удовлетворяет условиям (2).
+            </p>
+            <p>
+                Предположим, что &theta; ‑ произвольное действительное число, удовлетворяющее 
+                условиям <i>x = cos&theta;, y = sin&theta;, 0 &le; &theta; &le; 2&pi;</i> (5).
+            </p>
+            <p>
+                Допустим, что <i>&theta; &le; &phi;</i>, тогда <i>sin(&phi; - &theta;) = sin&phi;cos&theta; - cos&phi;sin&theta; = yx - xy = 0 </i>.
+            </p>
+            <p>
+                Но <i>0 &le; &phi; - &theta; &lt; 2&pi;</i>, поэтому равенство <i>sin(&phi; - &theta;) = 0</i> 
+                возможно лишь в случае <i>&phi; - &theta; = 0</i> или <i>&phi; - &theta; = &pi;</i>. 
+                Если <i>&phi; - &theta; = &pi;</i>, то <i>cos&phi; = - cos&theta; = - x = - cos&phi;, sin&phi; = - sin&theta; = - y = - sin&phi;</i>; 
+                из равенства <i>cos&phi; = - cos&phi;, sin&phi; = - sin&phi;</i> следует <i>cos&phi; = sin&phi; = 0</i>, 
+                что невозможно. Таким образом, случай, когда <i>&phi; = &theta; = &pi;</i>, невозможен. 
+                Следовательно, <i>&phi; - &theta; = 0</i> и <i>&phi; = &theta;</i>.
+            </p>
+            <p>
+                <b>Теорема 1.5.</b> Для любого комплексного числа <i>x</i>, отличного от нуля, существует единственная пара действительных чисел <i>r</i> и <i>&phi;</i> 
+                такая, что <i>z = r(cos&phi; + isin&phi;), 0 &lt; r, 0 &le; &phi; &le; 2&pi;</i> (1).
+            </p>
+            <p>
+                <i>Доказательство.</i> Если <i>r</i> удовлетворяет условиям (1), то <i>| z | <sup> 2</sup> = r <sup> 2</sup>(cos<sup> 2</sup>&phi; + sin<sup> 2</sup>&phi;) = 
+                r <sup> 2</sup></i> и <i>r = | z |</i>. Следовательно, существует не более одного действительного 
+                числа <i>r</i>, удовлетворяющего условиям (1).
+            </p>
+            <p>
+                Пусть <i>z = a + bi &ne; 0</i>, где <i>a, b</i> – действительные числа. Положим 
+                <i>r = (a <sup> 2</sup> + b <sup> 2</sup>) <sup>&frac12;</sup>, r &gt; 0</i>. 
+                Тогда <img style = "margin-bottom: -1vmax;" src="../formul/f5.png">. В силу теоремы 1.4 
+                существует единственное действительное число <i>&phi;</i>, удовлетворяющее условиям 
+                <img style = "margin-bottom: -1vmax;" src="../formul/f6.png"> (2).
+            </p>
+            <p>
+                Так как <i>r &lt; 0</i> и <img style = "margin-bottom: -1vmax;" src="../formul/f7.png">, то из (2) следует 
+                <i>z = r(cos&phi; + isin&phi;), 0 &le; &phi; &le; 2&pi;</i> (3).
+            </p>
+            <p>
+                С другой стороны, из (3) следуют равенства <i>a + bi = rcos&phi; + rsin&phi; &middot; i, a = rcos&phi;, 
+                b = rsin&phi;</i>. Поэтому из условий (3) следуют условия (2). Таким образом, условия (2) и (3) 
+                при <i>r &gt; 0</i> равносильны. Следовательно, существует единственная пара действительных чисел, 
+                удовлетворяющих условиям (1).
+            </p>
+            <p>
+                <b>Определение 1.6.</b> Тригонометрической формой комплексного числа <i>z</i> называется 
+                его представление в виде <i>z = r(cos&phi; + isin&phi;)</i>, где <i>r</i> и <i>&phi;</i> ‑ действительные 
+                числа и <i>r &ge; 0</i>.
+            </p>
+            <p>
+                <b>Теорема 1.6.</b> Пусть <i>z = r(cos&phi; + isin&phi;), r &gt; 0</i> (1), 
+                <i>z = r<sub>1</sub>(cos&phi; + isin&phi;), r<sub>1</sub> &gt; 0</i> (2),
+                ‑ два представления комплексного числа <i>z</i> в тригонометрической форме. 
+                Тогда <i>r = r<sub>1</sub> = | z |</i> и существует такое целое число <i>k</i>, 
+                что <i>&phi; - &psi; = 2&pi;k</i>.
+            </p>
+            <p>
+                <i>Доказательство.</i> В теореме 1.5 установлено, что из (1) и (2) следуют соответственно 
+                равенства <i>r = | z |</i> и <i>r<sub>1</sub> = | z |</i>, или <i>r = r<sub>1</sub> = | z |</i>. 
+                Для пары чисел <i>&phi;</i> и <i>2&pi;</i> существуют действительное число <i>&alpha;</i> 
+                и целое число <i>m</i> такие, что <i>&phi; = 2&phi;m + &alpha;, 0 &le; &alpha; &lt; 2&pi;</i> (3).
+            </p>
+            <p>
+                Аналогично, для чисел <i>&psi;</i> и <i>2&pi;</i> существуют действительное число <i>&beta;</i> и 
+                целое число <i>n</i> такие, что <i>&psi; = 2&pi;n + &beta;, 0 &le; &beta; &lt; 2&pi;</i> (4).
+            </p>
+            <p>
+                На основании формул (1), (3) имеем <i>r = </i> | <i>z</i> | и <i>z = </i> | <i>z</i> | <i>(cos&alpha; + isin&alpha;)</i> (5).
+            </p>
+            <p>
+                В силу формул (2), (4) получаем <i>r<sub>1</sub> = </i> | <i>z</i> | и <i>z = </i> | <i>z</i> | <i>(cos&beta; + isin&beta;)</i> (6).
+            </p>
+            <p>
+                Поскольку | <i>z</i> | &ne; 0, из (5) и (6) следует, что <i>cos&alpha; + isin&alpha; = cos&beta; + isin&beta;</i> (7).
+            </p>
+            <p>
+                Так как <i>0 &le; &alpha;, &beta; &lt; 2&pi;</i>, то, по теореме 1.5 , из (7) получаем
+                <i>&alpha; = &beta;</i>	(8).
+            </p>
+            <p>
+                На основании (3), (4) и (8) заключаем, что <i>&phi; - &psi; = 2&pi;k</i>, где <i>k = m - n</i>.
+            </p>
+            <p>
+                <b>Теорема 1.7.</b> Пусть <i>z = </i>| <i>z</i> | <i>(cos&phi; + isin&phi;), z<sub>1</sub>
+                 = </i> | <i>z<sub>1</sub></i> | <i>(cos&psi; + isin&psi;)</i>, где <i>&phi;</i> и <i>&psi;</i> – 
+                 действительные числа; тогда <br>
+                1) <i>zz<sub>1</sub> = </i>| <i>z </i>|| <i>z<sub>1 </sub></i>|[cos(&phi; + &psi;) + isin(&phi; + &psi;)];<br>
+                2)  при ;<br>
+                3) <i>z<sup>n</sup> = </i> | <i>z</i> | <i><sup>n</sup>(cosn&phi; + isin n&phi;</i> для любого натурального <i>n</i>;<br>
+                4) <i>(cos&phi; + isin&phi;)<sub>n</sub> = cosn&phi; + isin n&phi;</i>. <br>
+            </p>
+            <p>
+               <i>Доказательство.</i> В силу дистрибутивности умножения комплексных чисел относительно 
+               сложения имеем <i>z &middot; z<sub>1</sub> = </i> | <i>z</i> || <i>z<sub>1</sub></i> |
+               [(cos&phi;cos&psi; - sin&phi;sin&psi;) + (cos&phi;sin&psi; + cos&psi;sin&phi;)i].
+            </p>
+            <p>
+                Отсюда следует формула (1), поскольку <i>cos&phi;cos&psi; - sin&phi;sin&psi; = cos(&phi; + &psi;)</i>; 
+                <i>cos&phi;sin&psi; + cos&psi;sin&phi; = sin(&phi; + &psi;)</i>
+            </p>
+            <p>
+                В силу формулы (1) получаем <i>(cos&psi; + isin&psi;)(cos(-&psi;) + isin(-&psi;)) = cos0 + isin0 = 1</i>,
+                поэтому <img style = "margin-bottom: -1vmax;" src="../formul/f8.png"> и при 
+                <i>z<sub>1</sub> &ne; 0</i> получим <img style = "margin-bottom: -1vmax;" src="../formul/f9.png"> <br>
+                Следовательно, по формуле (1), <br>
+            </p>
+            <p>
+                Формула (3) доказывается индукцией по <i>n</i> на основании формулы (1). Формула (4) получается 
+                из формулы (3) при | <i>z</i> | = 1. <br>
+                Формулы (3) и (4) называются формулами Муавра.
+            </p>
+      </div>
+    </div>    
+
+  
+</body>
+</html>

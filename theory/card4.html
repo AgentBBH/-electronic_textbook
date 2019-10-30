@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>termin</title>
+    <link rel="stylesheet" href="css/card1.css" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+      <div class="box1">
+          <div class="nav_menu">
+                <div class="img1"><a href="../index.html"><img src="../img/logo.png"></a></div> 
+                <div class="author"><a href = "../index.html"> ВЕРНУТЬСЯ НА ГЛАВНУЮ</a></div>
+                <div class="help"><a href = "../practica/card_4.html"> ПЕРЕЙТИ К ПРАКТИКЕ</a></div>
+          </div>
+      </div>
+      <div class="box2">
+          <p>корень n - ой степени из единицы и произвольного комплексного числа</p>
+      </div>
+      <div class="box3">
+          <p>
+              Пусть <i>n</i> - любое натуральное число, отличное от нуля.
+          </p>
+          <p>
+              <b>Определение 1.7 </b> Комплексное число <i>&omega;</i>, удовлетворяющее условию <i>&omega;<sup>n</sup> = 1</i>, называется корнем n -й степени из единицы.
+          <p>
+          <b>Теорема 1.8 </b> Существует точно <i>n</i> различных корней <i>n</i> - й степени из единицы и все они получаются по формуле</p>
+          <p>  <img style = "margin-bottom: -2vmax; padding-left: 20vmax;" src="formul/f1.png">, при <i>k = 0, 1 ,… , n-1 </i>.
+          </p>
+          <p> 
+          <i>Доказательство</i>. Каждое из чисел <i>&omega;<sub>k</sub></i> есть корень <i>n</i> -й степени из единицы, так как согласно формуле Муавра
+           <img style = "margin-bottom: -2vmax; padding-left: 20vmax;" src="formul/f2.png">
+          </p>
+          
+          <p> 
+              Действительные числа <img style = "margin-bottom: -2vmax;" src="formul/f3.png">  неотрицательны, меньше числа 2&pi; и попарно различны.
+          </p> 
+          <p>
+            Следовательно, по теореме 1.5, комплексные числа <i> &omega;<sub>0</sub> , &omega;<sub>1</sub>  ,… ,&omega;<sub>n-1</sub></i> попарно различны.
+          </p>
+          <p> 
+          Нам остается показать, что произвольный корень <i>n</i>-й степени из единицы принадлежит множеству  <i>{ &omega;<sub>0</sub> , &omega;<sub>1</sub>, … ,&omega;<sub>n-1</sub> }</i>. По теореме 1.5, число <i>&omega;</i> можно представить в виде <i> &omega; = |&omega;|(⁡cos&phi; + isin⁡&phi;)</i>, причем действительное число &phi; удовлетворяет условиям 0 &le; &phi; &lt;; 2&pi;         (1) 
+          </p>
+            
+          <p> 
+          Так как <i> &omega;<sup>n</sup> = 1, то |&omega;|<sup>n</sup> = 1 и , |&omega;| = 1.</i> </p>
+          <p>
+          Следовательно, <i>&omega; = cos⁡&phi; + isin&phi;</i>. По формуле Муавра 
+           <i>&omega;<sup>n</sup> = cos⁡n&phi; + isin⁡n&phi;</i>. Поэтому равенство <i>&omega;<sup>n</sup> = 1</i> можно записать в виде
+           <i> cos⁡n&phi;+ isin⁡n&phi; = cos⁡0 + isin⁡0.</i>        (2)
+         </p>
+           
+          <p> По теореме 1.6, из (2) следует, что <i> n&phi; - 0 = 2&pi;k </i> для некоторого целого числа <i>k</i>, поэтому 
+          <img style = "margin-bottom: -1vmax;" src="formul/f4.png">. Кроме того, в силу (1)  <img style = "margin-bottom: -1.5vmax;" src="formul/f5.png">  и, значит, <i>0 &le; k &lt; n</i>. Следовательно, <img style = "margin-bottom: -1vmax;" src="formul/f6.png">
+          </p>
+          <p>
+          <i>Следствие 1.2</i> Точки комплексной плоскости, изображающие корни <i>n</i> - й степени из единицы, являются вершинами правильного <i>n</i> - угольника, вписанного в окружность единичного радиуса с центром в начале координат, причем одна из вершин находится в точке (0,1).
+          </p>
+          <p> 
+          <i>Определение 1.8</i> Комплексное число &omega; называется первообразным корнем <i>n</i> - й степени из единицы <i>(n&ge;1)</i>,  если множество чисел <i>{ &omega;<sup>0</sup> , &omega;<sup>1</sup>  ,… ,&omega;<sup>n-1</sup>}</i> является множеством всех решений уравнения <i>z<sup>n</sup>=1</i>.
+          </p>
+          <p>
+          Так, например, при любом натуральном n &ge;1 число <img style = "margin-bottom: -1vmax;" src="formul/f7.png"> в силу теоремы 1.8 является первообразным корнем <i>n</i> - й степени из единицы.
+          </p>
+	      <p>
+	      <b>Корни <i>n</i> -й степени из произвольного комплексного числа</b>
+	      </p>
+
+         <p>
+         Тригонометрическая форма комплексного числа позволяет полностью решить вопрос об извлечении корней из комплексных чисел.
+         </p>
+         <p>
+         <b>Теорема 1.9</b> Пусть <i>c =|c|(cos⁡&phi; + isin⁡&phi; )</i>  отличное от нуля комплексное число и <i>n</i>  ненулевое натуральное число. Существует <i>n</i> различных корней <i>n</i> -й степени из числа <i>c</i> и все они получаются по формуле
+         <img style = "margin-bottom: -1vmax;  padding-left: 20vmax;" src="formul/f8.png">
+         </p>
+               
+         <p>
+         <i>Доказательство.</i> Покажем, что <i> u<sub>k</sub> = u<sub>0</sub> &omega;<sub>k</sub>, k = 0, 1, … , n-1 </i>		 (1), 
+         где<i> &omega;<sub>0</sub>, …, &omega;<sub>n-1</sub></i>  корни <i>n</i> -й степени из единицы и <img style = "margin-bottom: -1vmax;" src="formul/f11.png">.
+         </p>
+         <p>
+          В самом деле, в силу формулы Муавра <img style = "margin-bottom: -1vmax;" src="formul/f9.png">
+         </p>
+         <p>
+          Каждое из чисел <i>u<sub>k</sub> </i> есть корень <i>n</i> -й степени из числа <i>c</i>, так как в силу (1)  
+           <img style = "margin-bottom: -1vmax;  padding-left: 20vmax;" src="formul/f10.png">.
+         </p>
+        
+        <p>
+        Если <i>u</i> - произвольный корень <i>n</i> -й степени из числа <i>c</i>, то <i> (uu<sub> 0 </sub><sup>-1</sup>)<sup> n </sup> = u<sup> n </sup> (u<sub> 0 </sub><sup> n </sup> )<sup>-1</sup> = cc<sup>-1</sup> =1 </i>. Поэтому <i>uu<sub>0</sub><sup>-1</sup> &isin; { &omega;<sub>0</sub> ,…, &omega;<sub>n-1</sub> }</i> и в силу (1) 
+        <i> u &isin; { u<sub>0</sub>&omega;<sub>0</sub> ,..., u<sub>0</sub>&omega;<sub>n-1</sub> } = { u<sub>0</sub> ,…, u<sub>n-1</sub> }</i>.
+        </p>
+        <p>
+        Следовательно, множество <i>{ u<sub>0</sub> ,…, u<sub>n-1</sub> } </i> является множеством всех корней <i>n</i> -й степени из числа <i>c</i>. Это множество содержит в точности <i>n</i> различных элементов, поскольку {u<sub>0</sub> ,…, u<sub>n-1</sub>} ={ u<sub>0</sub>&omega;<sub>0</sub> , ... , u<sub>0</sub>&omega;<sub>n-1</sub> }, <i>u<sub>0</sub> &ne; 0</i> и числа <i> &omega;<sub>0</sub>  ,… ,&omega;<sub>n-1 </sub></i> попарно различны (по теореме 1.5).
+        </p>
+
+        
+           
+      </div>
+    </div>    
+
+  
+</body>
+</html>

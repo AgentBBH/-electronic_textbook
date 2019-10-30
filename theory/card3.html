@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>termin</title>
+    <link rel="stylesheet" href="css/card1.css" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+      <div class="box1">
+          <div class="nav_menu">
+                <div class="img1"><a href="../index.html"><img src="../img/logo.png"></a></div> 
+                <div class="author"><a href = "../index.html"> ВЕРНУТЬСЯ НА ГЛАВНУЮ</a></div>
+                <div class="help"><a href = "../practica/card_3.html"> ПЕРЕЙТИ К ПРАКТИКЕ</a></div>
+          </div>
+      </div>
+      <div class="box2">
+          <p>модуль комплексного числа</p>
+      </div>
+      <div class="box3">
+        <p>
+            Введем понятие модуля комплексного числа.
+        </p>
+        <p>
+            <b>Определение 1.5.</b> Модулем комплексного числа <i>a + bi (a, b &isin; R)</i> 
+            называется арифметический квадратный корень из числа <i>a <sup>2</sup> + b <sup>2</sup></i>, 
+            т.е. число <i>(a <sup>2</sup> + b <sup>2</sup>) <sup>&frac12;</sup></i>. Модуль комплексного 
+            числа <i>z = a + bi</i> обозначается через | <i>z</i> | или | <i>a + bi</i> |. Таким образом, 
+            согласно определению, | <i>z</i> | <sup>2</sup> <i>= a <sup>2</sup> + b <sup>2</sup></i>.
+        </p>
+        <p>
+            <b>Теорема 1.3.</b> Для любых комплексных чисел <i>z</i> и  <i>u</i> <br>
+            1) | <i>z</i> |<sup>2</sup> = <i>z &middot; <span class="arrow"> z</span></i> ;<br>
+            2) | <i>z</i> | = 0 тогда и только тогда, когда <i>z = 0</i>; <br>
+            3) | <i>zu</i> | = <i>z</i> | &middot; | <i>u</i> |; <br>
+            4) | <i>z <sup>-1</sup></i> |  = | <i>z</i> | <sup> -1</sup> при <i>z &ne; 0</i>; <br>
+            5) | <i>z + u</i> | &le; | <i>z</i> | + | <i>u</i> |; <br>
+            6) | <i>z</i> | - | <i>u</i> | &le; | <i>z + u</i> |; <br>
+            7) | | <i>z</i> | - | <i>u</i> | | &le; | <i>z + u</i> |.
+        </p>
+        <p>
+            <i>Доказательство.</i> <br> 
+            1. Если <i>z = a + bi</i>, то <i><span class="arrow"> z</span> = a - bi</i> и 
+            <i>z &middot; <span class="arrow"> z</span> = a <sup>2</sup> + b <sup>2</sup> = </i> | <i>z</i> | <sup>2</sup>. <br>
+            2. Если | <i>z </i>| = | <i>a + bi</i> | = 0, то | <i>z</i> | <sup>2</sup> = <i>a <sup>2</sup> + b <sup>2</sup> = 0</i>.
+            Так как <i>a</i> и <i>b</i> ‑ действительные числа, то из <i>a <sup>2</sup> + b <sup>2</sup> = 0</i> 
+            следует <i>a = b = 0</i>, т.е. <i>z = 0</i>. <br>
+            3. В силу 1 равенства из теоремы 1.3, | <i>zu</i> | <i><sup>2</sup> = (zu)(<span class="arrow2">zu</span> ) = 
+            (z<span class="arrow"> z</span>)(u<span class="arrow"> u</span>) = </i> | <i>z</i> | <sup>2</sup> | <i>u</i> <sup>2</sup>
+            = <i>(</i> | <i>z</i> | &middot; | <i>u</i> |)<sup>2</sup>. Из равенства | <i>zu</i> | <sup>2</sup> = (| <i>z</i> | &middot; | <i>u</i> |) <sup>2</sup> 
+            следует формула | <i>zu</i> | = | <i>z</i> | &middot; | <i>u</i> |. <br>
+            4. Согласно уравнению 3 из теоремы 1.3, при <i>z &ne; 0</i> получим | <i>z &middot; z <sup>-1</sup></i> | =
+            | <i>z</i> &middot; | <i>z <sup>-1</sup> = 1</i>. Следовательно, | <i>z + u</i> | &le; | <i>z</i> | + | <i>u</i> |. <br>
+            5. На основании равенства 1 из теоремы 1.3 имеем | <i>z + 1</i> | <sup>2</sup> = <i>(z + 1) &middot; ( <span class="arrow">z</span> + 1) = </i>
+            | <i>z</i> | <sup>2</sup> <i> + z + <span class="arrow"> z</span> + 1</i>. Кроме того, если <i>z = a + bi</i>, 
+            то <i>z + <span class="arrow"> z</span> = 2a &le; 2(a <sup>2</sup> + b <sup>2</sup>) <sup>&frac12;</sup> = 2</i> | <i>z</i> |. 
+            Поэтому | <i>z + 1</i> | <sup>2</sup> &le; (| <i>z</i> | + 1) <sup>2</sup>, следовательно, | <i>z + 1</i> | &le; | <i>z</i> | + 1. 
+            На основании формулы 3 из теоремы 1.3 и последнего неравенства заключаем, что при <i>u &ne; 0</i> имеем 
+            | <i>z + u</i> | = | <i>u(zu <sup>-1</sup> + 1</i>)| = | <i>u</i> || <i>zu <sup>-1</sup> + 1</i> | &le; | <i>u</i> |(|<i>zu <sup>-1</sup></i> | + 1) = 
+            | <i>u</i> |(| <i>z</i> || <i>u <sup>-1</sup> + 1</i> ).Следовательно, | <i>z + u</i> | &le; | <i>z</i> | + | <i>u</i>. <br>
+            6. Так как <i>z = -u + (z + u)</i> и | <i>-u</i> | = | <i>u</i> |, то в силу неравенства 5 из теоремы 1.3, 
+            | <i>z</i> | &le; | <i>-u</i> | + | <i>z + u</i> | = | <i>u</i> | + | <i>z + u</i> |. Следовательно, 
+            | <i>z</i> | - | <i>u</i> | &le; | <i>z + u</i> |. <br>
+            7. Поскольку число | | <i>z</i> | - | <i>u</i> | | равно | <i>z</i> | - | <i>u</i> | или | <i>u</i> | - | <i>z</i> |, то неравенство 7 
+            следует из неравенства 6 из теоремы 1.3.         
+      </div>
+      
+      <div class="box4">
+          <p>сопряженные комплексные числа</p>
+      </div>
+      <div class="box5">
+        <p>
+            <b>Определение.</b> Комплексные числа z<sub> 1</sub> и z<sub> 2</sub>, заданные в алгебраической форме, называются сопряженными, если они отличаются только знаком перед мнимой частью.
+        </p>
+        <p>
+            Число, сопряженное числу z, будем обозначать через <span class="arrow"> z</span>. Таким образом, если z = а + bi, то <span class="arrow"> z</span> = а - bi.
+        </p>
+        <p>
+            Приведем некоторые свойства сопряженных чисел: <br>
+            1)<img style="margin-bottom: -1vmax;" src="formul/f57.jpg">, т.е. сумма и произведение сопряженных чисел есть действительное числа.<br>
+            2)<img style="margin-bottom: -1vmax;" src="formul/f56.jpg">, т.е. число, сопряженное с произведением, равно произведению чисел, сопряженных с сомножителями. <br>
+            3)<img style="margin-bottom: -1vmax;" src="formul/f58.jpg">, т.е. число, сопряженное с суммой, равно сумме чисел, сопряженных со слагаемыми.<br>
+            4)<img style="margin-bottom: -1.9vmax;" src="formul/f59.jpg">, т.е. число, сопряженное с частным, равно частному чисел сопряженных с делимым и делителем.<br>
+            (с<sup> 2</sup> + d<sup> 2</sup> &ne; 0).    
+      </div>
+    </div>    
+
+  
+</body>
+</html>
