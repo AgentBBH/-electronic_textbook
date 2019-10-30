@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>termin</title>
+    <link rel="stylesheet" href="css/card4.css" type="text/css">
+    <script src="js/task3.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+      <div class="box1">
+          <div class="nav_menu">
+                    <div class="img1"><a href="../index.html"><img src="../img/logo.png"></a></div> 
+                    <div class="author"><a href = "../index.html"> ВЕРНУТЬСЯ НА ГЛАВНУЮ</a></div>
+                    <div class="help"><a href = "../theory/card3.html"> ПЕРЕЙТИ К ТЕОРИИ</a></div>
+            </div>
+      </div>
+      <div class="box2">
+          <p>модуль комплексного числа. сопряженные комплексные числа</p>
+      </div>
+      
+      <div class="box3">
+          <p class="name_art">
+              <b>примеры решения задач</b>
+          </p>
+          
+          <p>
+              <b>Пример 1.</b>
+          </p>    
+          <p> Зная, что корнем уравнения x<sup>3</sup> - 7x<sup>2</sup> + 17x - 15 = 0 является число z<sub>1</sub> = 2 + i, найти все корни даного уравнения.</p>
+          <p>
+          <p>Решение. Поскольку все коэффициенты данного уравнения - действительные числа, то число z<sub>2</sub> = 2 - i также является корнем уравнения. Пусть z<sub>3</sub> - неизвестный корень уравнения, тогда <br>
+          x<sup>3</sup> - 7x<sup>2</sup> + 17x - 15 = (x - z<sub>1</sub>)(x z<sub>2</sub>)(x - z<sub>3</sub>); <br>
+          x<sup>3</sup> - 7x<sup>2</sup> + 17x - 15 = (x<sub>2</sub> - 4x + 5)(x - z<sub>3</sub>). <br>  
+          Разделим обе части последнего равенства на x<sub>2</sub> - 4x + 5, получим x - z<sub>3</sub> = x - 3. <br>
+          Следовательно, z<sub>3</sub> = 3. <br>
+          Ответ: 2 + i; 2 - i; 3.
+          </p>
+           
+          <p>
+                <b>Пример 2.</b>
+          </p>    
+          <p>Найдите все комплексные числа, каждое из которых сопряжено сосвоим квадратом.</p>
+          <p>Решение. Пусть z = x + yi - искомое комплексное число, где x и y - действительные числа. Тогда число <span class="arrow"> z</span>, сопряженное числу z, равно x - yi. По условию задачи имеем: <span class="arrow"> z</span> = z. <br>
+          (x + yi)<sup>2</sup> = x - yi. (1) <br>
+          Преобразовав это уравнение, получим:
+          (x<sup>2</sup> - y<sup>2</sup>) + 2xyi = x - yi. <br>
+          Два комплексных числа равны тогда и только тогда, когда равны их действительные и мнимые части. Следовательно, последнее уравнение равносильно следующей системе уравнений с действительными переменными x и y: <br>
+          <img src="formul/f65.jpg"> <br>
+          Возможны два случая. <br>
+          1) y &ne; 0.  Тогда полученная выше система равносильна системе: <br>
+          <img src="formul/f66.jpg"> <br>
+          которая имеет следующие решения: <br>
+          <img src="formul/f67.jpg"> <br>
+          2) у = 0. Тогда полученная выше система равносильна системе: <br>
+          <img src="formul/f68.jpg"> <br>
+          которая имеет два решения: (0; 0) и (1; 0). Итак, искомых чисел четыре: <br>
+          <img src="formul/f69.jpg"> <br>
+          из них два числа z<sub>3</sub> и z<sub>4</sub> - действительные, а два других − z<sub>1</sub> и z<sub>2</sub> - комплексно сопряженные. <br>
+          Ответ: <img style="margin-bottom: -1.8vmax;" src="formul/f69.jpg">. <br><br>
+          </p>
+          <hr><hr><hr>
+    </div>  
+      <div class="box4">
+             <p class="name_art">
+              <b>проверь себя</b>
+          </p>
+          <p class="task_name">
+                <b>Задание 1.</b>
+            </p>    
+            <p> Вычислите модуль комплексного числа <img style = "padding-top: -1vmax;" src="formul/f6.png"> </p>
+            <p>
+                1) &radic;2 <br>
+                2) 2 &radic;2 <br>
+                3) 4 <br>
+                4) 2 <br>
+                5) 0
+            </p>
+            <p> Ответ: <input type="text" id="z_1"> </p>
+            <hr>
+
+            <p class="task_name">
+                <b>Задание 2.</b>
+            </p>    
+            <p> Вычислите модуль комплексного числа <img style = "padding-top: -1vmax;" src="formul/f7.png"> </p>
+            <p>
+                1) 4 <br>
+                2) 2 + &radic;2 <br>
+                3) &radic;2 - 2 <br>
+                4) -6 <br>
+                5) 2 
+            </p>
+            <p> Ответ: <input type="text" id="z_2"> </p>
+            <hr>
+
+            <p class="task_name">
+                <b>Задание 3.</b>
+            </p>  
+            <p> Вычислите модуль комплексного числа z = -3i </p>
+            <p>
+                1) 3 <br>
+                2) 9 <br>
+                3) -3 <br>
+                4) &radic;3 <br>
+                5) 1
+            </p>
+            <p> Ответ: <input type="text" id="z_3"> </p>
+            <hr>
+            <p class="task_name">
+                <b>Задание 4.</b>
+            </p>    
+            <p> Вычислите модуль комплексного числа <img style = "padding-top: -1vmax;" src="formul/f8.png"> </p>
+            <p>
+                1) 1 <br>
+                2) 2 <br>
+                3) -&radic;3 + 1 <br>
+                4) &radic;3 - 1 <br>
+                5) &radic;3
+            </p>
+            <p> Ответ: <input type="text" id="z_4"> </p>
+            <hr>
+
+            <p class="task_name">
+                <b>Задание 5.</b>
+            </p>    
+            <p> Вычислите модуль комплексного числа z = 1 - i </p>
+            <p>
+                1) 2 <br>
+                2) 0 <br>
+                3) &radic;3 <br>
+                4) &radic;2 <br>
+                5) 1
+            </p>
+            <p> Ответ: <input type="text" id="z_5"> </p>
+            <hr>
+
+            <p class="task_name">
+                <b>Задание 6.</b>
+            </p>    
+            <p> Вычислите аргумент комплексного числа  z = 5i </p>
+            <p>
+                1) 30&deg; <br>
+                2) -60&deg; <br> 
+                3) 90&deg; <br>
+                4) 180&deg; <br>
+                5) 270&deg;
+            </p>
+            <p> Ответ: <input type="text" id="z_6"> </p>
+            <hr>
+
+            <p class="task_name">
+                <b>Задание 7.</b>
+            </p>    
+            <p> Вычислите аргумент комплексного числа z = 1 - i </p>
+            <p>
+                1) 45&deg; <br>
+                2) 135&deg; <br> 
+                3) 180&deg; <br>
+                4) -30&deg; <br>
+                5) 315&deg;
+            </p>
+            <p> Ответ: <input type="text" id="z_7"> </p>
+            <hr>
+
+            <p class="task_name">
+                <b>Задание 8.</b>
+            </p>    
+            <p> Вычислите аргумент комплексного числа <img src="formul/f9.png"> </p>
+            <p>
+                1) 120&deg; <br>
+                2) 150&deg; <br> 
+                3) -30&deg; <br>
+                4) 60&deg; <br>
+                5) -60&deg; 
+            </p>
+            <p> Ответ: <input type="text" id="z_8"> </p>
+            <hr>
+
+            <p class="task_name">
+                <b>Задание 9.</b>
+            </p>    
+            <p> Вычислите аргумент комплексного числа z = -2i </p>
+            <p>
+                1) 0&deg; <br>
+                2) 90&deg; <br> 
+                3) -60&deg; <br>
+                4) 270&deg; <br>
+                5) 45&deg;
+            </p>
+            <p> Ответ: <input type="text" id="z_9"> </p>
+            <hr>
+
+            <p class="task_name">
+                <b>Задание 10.</b>
+            </p>    
+            <p> Вычислите аргумент комплексного числа z = -1 + i </p>
+            <p>
+                1) 30&deg; <br>
+                2) 180&deg; <br> 
+                3) -45&deg; <br>
+                4) 225&deg; <br>
+                5) 135&deg;
+            </p>
+            <p> Ответ: <input type="text" id="z_10"> </p>
+          
+          
+        </div>
+             
+      <div class="box5">
+              <button class="but1" onclick="proverit();">Проверить</button>
+              <div class="resultat" id = "rezultat">
+
+              </div>
+              
+      </div>      
+      <div class="box6"> 
+         <hr><hr><hr>
+          <p class="name_art">
+              <b>реши сам</b>
+          </p>
+          
+          <p class="task_name">
+                <b>Задание 1.</b>
+            </p>    
+            <p> Известно, что z<sub>1</sub> = 1 + 2i, z<sub>2</sub> = -3i. Найдите: </p>
+            <p>
+                1) <img style = "margin-bottom: -2vmax;" src="formul/f70.jpg"> <br>
+                2) <img style = "padding-top: 1vmax; margin-bottom: -2vmax;" src="formul/f71.jpg"> <br><br>
+            </p>
+            <hr>
+
+            <p class="task_name">
+                <b>Задание 2.</b>
+            </p>    
+            <p> При каких действительных значениях x и y комплексные числа <img style = "margin-bottom: -1.3vmax;" src="formul/f72.jpg"> и <img style = "margin-bottom: -1vmax;" src="formul/f73.jpg"> будут сопряженными?</p>
+            <hr>
+
+            <p class="task_name">
+                <b>Задание 3.</b>
+            </p>  
+            <p> Вычислите модуль комплексного числа z = 5 - 2i </p>
+            <hr>
+            
+            <p class="task_name">
+                <b>Задание 4.</b>
+            </p>    
+            <p> Найдите все комплексные числа, каждое из которых сопряжено с самим собой. </p>
+            <hr>
+
+            <p class="task_name">
+                <b>Задание 5.</b>
+            </p>    
+            <p> Найдите все комплексные числа, сопряженные своему кубу. </p>
+            <hr>
+
+            <p class="task_name">
+                <b>Задание 6.</b>
+            </p>    
+            <p> Вычислите аргумент комплексного числа  z = 4 + i </p>
+            <hr>
+
+            <p class="task_name">
+                <b>Задание 7.</b>
+            </p>    
+            <p> Вычислите аргумент комплексного числа z = -3 - 2i </p>
+            <hr>           
+      </div>
+    </div>    
+
+  
+</body>
+</html>

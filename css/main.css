@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+body {
+    font-family: "Roboto";
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(10.3vh, auto);
+    justify-items: stretch;
+    align-items: stretch;
+
+}
+
+.wrapper a {
+    text-decoration: none;
+}
+
+/************************ блок с меню ****************************/
+
+.box1 {
+    grid-column: 1/11;
+    grid-row: 1/2;
+    background-color: #3dc9e2;
+    border-bottom: 0.1vmax solid #cdffe0;
+    padding-bottom: 1vh;
+    padding-top: 2vh; 
+}
+
+.nav_menu {
+    display: grid;
+    grid-template-columns: 45vw 15vw 13vw 5vw 20vw;
+}
+
+.img1 img{
+    width: 7vw;;
+    height: 4vmax;
+    padding: 1vmax;
+    padding-left: 2vmax;
+}
+
+.author a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #02053f;
+    letter-spacing: 0.35vw;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.author a:hover {
+    text-shadow: 10vw 10vw 10vw #b7f4ff, 0 0 1em #c0e2cd;
+    color: #ffffff;
+}
+
+.author {
+    text-align: center;
+    font-family: roboto;
+    padding-bottom: 2vh;
+    padding-top: 4vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.name {
+    text-align: center;
+    font-family: roboto;
+    padding-bottom: 1vh;
+    padding-top: 1.8vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-transform: uppercase;
+    color: #02053f;
+    letter-spacing: 0.35vw;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+.help a {
+    text-decoration: none;
+    color: #02053f;
+    text-transform: uppercase;
+    letter-spacing: 0.35vw;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.help a:hover {
+    text-shadow: 10vw 10vw 10vw #ffffff, 0 0 1em #c0e2cd;
+    color: #ffffff;
+}
+
+.help {
+    text-align: center;
+    padding-top: 4vh;
+    font-family: roboto;
+}
+
+/************************ блок с теорией ****************************/
+
+.box2 {
+    grid-column: 1/6;
+    grid-row: 2/10;
+    background-image: url(../img/fonN.png);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    font-family: roboto;
+    font-size: 1.4vw;
+}
+
+div.card1, div.card2, div.card3, div.card4, div.card5, 
+div.card6, div.card7, div.card8, div.card9 {
+    opacity: 0; 
+    visibility: hidden;
+    transition: all .7s ease .3s;  
+}
+
+div.box2:hover div.card1, div.box2:hover div.card2, 
+div.box2:hover div.card3, div.box2:hover div.card4, 
+div.box2:hover div.card5, div.box2:hover div.card6,
+div.box2:hover div.card7, div.box2:hover div.card8, 
+div.box2:hover div.card9 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, 
+.card5:hover, .card6:hover, .card7:hover, .card8:hover, 
+.card9:hover {
+    background-color: #2abae6;
+    transition: all .2s ease .2s; 
+    border: 1px solid #ffffff;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6 {
+    padding: 1vmax;
+    text-align: center;
+    background-color: #bef6fa;
+    border: 0.01em solid #ffffff;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6 {
+    padding-top: 7vmax;
+    padding-left: 1vmax;
+    padding-right: 1vmax;
+}
+
+.card1 a, .card2 a, .card3 a, .card4 a, .card5 a, .card6 a {
+    color: #0f2858; 
+    font-weight: bolder;
+}
+
+/************************ блок с практикой ****************************/
+
+.box3 {
+    grid-column: 6/11;
+    grid-row: 2/10;
+    background-image: url(../img/fonNR.png);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    font-family: roboto;
+    font-size: 1.4vw;
+    border-left: 2px solid #fcfcfc;
+}
+
+div.card_1, div.card_2, div.card_3, div.card_4, div.card_5, div.card_6 {
+    opacity: 0; 
+    visibility: hidden;
+    transition: all .7s ease .3s;  
+}
+
+div.box3:hover div.card_1, div.box3:hover div.card_2,
+div.box3:hover div.card_3, div.box3:hover div.card_4,
+div.box3:hover div.card_5, div.box3:hover div.card_6 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card_1, .card_2, .card_3, .card_4, .card_5, .card_6 {
+    background-color: #bef6fa;
+    border: 0.01em solid #ffffff;
+}
+
+.card_1 a, .card_2 a, .card_3 a, .card_4 a, .card_5 a, .card_6 a {
+    color: #0f2858; 
+    font-weight: bolder;
+}
+
+.card_1, .card_2, .card_3, .card_4, .card_5, .card_6  {
+    padding-top: 7vmax;
+    text-align: center;
+    padding-left: 1vmax;
+    padding-right: 1vmax;
+}
+
+.card_1:hover, .card_2:hover, .card_3:hover, .card_4:hover, .card_5:hover, .card_6:hover {
+    background-color: #2abae6;
+    transition: all .2s ease .2s; 
+}
